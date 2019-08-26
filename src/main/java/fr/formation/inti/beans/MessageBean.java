@@ -1,5 +1,8 @@
 package fr.formation.inti.beans;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class MessageBean {
 
 	private String message;

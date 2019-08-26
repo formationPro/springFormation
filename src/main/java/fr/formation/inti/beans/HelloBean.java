@@ -1,10 +1,12 @@
 package fr.formation.inti.beans;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("hello")
 public class HelloBean {
 	
+	@Autowired
 	MessageBean m;
 	
 	
